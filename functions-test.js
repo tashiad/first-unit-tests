@@ -9,9 +9,9 @@ describe('functions', function() {
 
   describe('addTwoNumbers', function() {
 
-    it.skip('should be able to add zero to zero', function() {
+    it('should be able to add zero to zero', function() {
       // setup for test (if necessary)
-      
+
       // execute function
       var result = addTwoNumbers(0, 0)
 
@@ -19,7 +19,7 @@ describe('functions', function() {
       assert.equal(result, 0)
     })
 
-    it.skip('should be able to add 1 to 0', function() {
+    it('should be able to add 1 to 0', function() {
       // setup for test (if necessary)
 
       // execute function
@@ -29,7 +29,7 @@ describe('functions', function() {
       assert.equal(result, 1)
     })
 
-    it.skip('should be able to add 1 to 1', function() {
+    it('should be able to add 1 to 1', function() {
       // setup for test (if necessary)
 
       // execute function
@@ -41,9 +41,9 @@ describe('functions', function() {
   })
 
   describe('sayHello', function() {
-    it.skip('should be able to say hello to Leta', function() {
+    it('should be able to say hello to Leta', function() {
       // setup for test (if necessary)
-      
+
       // execute function
       var result = sayHello('Leta')
 
@@ -51,9 +51,9 @@ describe('functions', function() {
       assert.equal(result, 'Hi there Leta!')
     })
 
-    it.skip('should be able to say hello to Casey', function() {
+    it('should be able to say hello to Casey', function() {
       // setup for test (if necessary)
-      
+
       // execute function
       var result = sayHello('Casey')
 
@@ -61,9 +61,9 @@ describe('functions', function() {
       assert.equal(result, 'Hi there Casey!')
     })
 
-    it.skip('should not be able to say hello to Will', function() {
+    it('should not be able to say hello to Will', function() {
       // setup for test (if necessary)
-      
+
       // execute function
       var result = sayHello('Will')
 
@@ -73,10 +73,10 @@ describe('functions', function() {
   })
 
   describe('buildCar', function() {
-    it.skip('should return a car with a color', function() {
+    it('should return a car with a color', function() {
       // setup for test (if necessary)
       var color = 'red'
-      
+
       // execute function
       var result = buildCar(color)
 
@@ -84,11 +84,11 @@ describe('functions', function() {
       assert.equal(result.color, color)
     })
 
-    it.skip('should return a car with a type', function() {
+    it('should return a car with a type', function() {
       // setup for test (if necessary)
       var color = 'red'
       var type = 'truck'
-      
+
       // execute function
       var result = buildCar(color, type)
 
@@ -96,9 +96,9 @@ describe('functions', function() {
       assert.equal(result.type, type)
     })
 
-    it.skip('should return an empty object if there are no details passed', function() {
+    it('should return an empty object if there are no details passed', function() {
       // setup for test (if necessary)
-      
+
       // execute function
       var result = buildCar()
 
